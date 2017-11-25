@@ -30,6 +30,7 @@ DATABASES = {
  ```
 3)Populate the database using the excel files from db folder
   - open 127.0.0.1:8000/admin
+    ![Alt text](Online_Retail/screenshots/Screenshot (2).png "Optional title")
   - add the product categories
   - add products from excel sheet using import
   
