@@ -35,5 +35,5 @@ DATABASES = {
   
 
 # MEMBERS
-- Vinit Kanani [https://github.com/vinit-kanani](https://github.com/vinit-kanani)
+- Vinit Kanani ([https://github.com/vinit-kanani](https://github.com/vinit-kanani))
 - Vaisakh M
