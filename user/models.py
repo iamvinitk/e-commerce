@@ -24,6 +24,13 @@ class Orders(models.Model):
     quantity = models.IntegerField(default=1)
     status = models.CharField(default='', max_length=210)
 
+    def __str__(self):
+        return self.user.first_name + str(self.product_id)
+
+    class Meta:
+        verbose_name = "Cart"
+        verbose_name_plural = "Cart"
+
 
 class Addressbook(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
@@ -32,3 +39,10 @@ class Addressbook(models.Model):
     region = models.CharField(default='', max_length=250)
     postcode = models.CharField(default='', max_length=250)
     country = models.CharField(default='', max_length=50)
+
+    def __str__(self):
+        return self.user.first_name + str(self.locality)
+
+    class Meta:
+        verbose_name = "Address"
+        verbose_name_plural = "Address"
