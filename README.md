@@ -1,6 +1,6 @@
 1) Install python 3.6.3
 2) Install mysql community server
-3) pip install -r requirements.txt
+3) ```pip install -r requirements.txt```
 
 
 # Commands to setup the project
@@ -35,5 +35,5 @@ DATABASES = {
   
 
 # MEMBERS
-- Vinit Kanani ([https://github.com/vinit-kanani](https://github.com/vinit-kanani))
+- Vinit Kanani ( [https://github.com/vinit-kanani](https://github.com/vinit-kanani) )
 - Vaisakh M
