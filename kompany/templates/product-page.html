@@ -1,0 +1,197 @@
+{% extends 'base_kompany.html' %}
+{% load static %}
+{% block css %}
+    <link href="http://ubislider.com/css/ubislider.min.css?v=1.0.0.1" rel="stylesheet" type="text/css">
+    <link href="{% static 'kompany/css/product-page-css.css' %}">
+{% endblock css %}
+
+{% block body %}
+    <div class="container" style="margin-top: 75px;">
+        <div class="row text-center">
+            <div class="col-md-4">
+                <div class="ubislider-image-container" data-ubislider="#slider4" id="imageSlider4"></div>
+                <div id="slider4" class="ubislider">
+                    <a class="arrow prev"></a>
+                    <a class="arrow next"></a>
+                    <ul id="gal1" class="ubislider-inner">
+                        {% for image in image_list %}
+                            <li>
+                                <a>
+                                    <img src="{{ image }}">
+                                </a>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-6">
+                        <a href="{% url 'user:check_out_item' product_id=product_i %}">
+                            <button class="btn btn-danger btn-lg" style="width: 100%;">BUY NOW</button>
+                        </a>
+                    </div>
+                    <div class="col-md-6">
+                        <button class="btn btn-danger btn-lg" id="add_cart" style="width: 100%;">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-8">
+                <table class="table table-bordered" style="margin-top: 10px;">
+                    {% if category_type == 'laptop' %}
+                        <tbody>
+                        <tr>
+                            <td>Product Name</td>
+                            <td>{{ product_list.product_name }}</td>
+                        </tr>
+                        <tr>
+                            <td>What is in th Box?</td>
+                            <td>{{ product_list.product_content }}</td>
+                        </tr>
+                        <tr>
+                            <td>Color</td>
+                            <td>{{ product_list.color }}</td>
+                        </tr>
+                        <tr>
+                            <td>Brand</td>
+                            <td>{{ product_list.brand }}</td>
+                        </tr>
+                        <tr>
+                            <td>SSD</td>
+                            <td>{{ product_list.ssd }}</td>
+                        </tr>
+                        <tr>
+                            <td>RAM</td>
+                            <td>{{ product_list.ram }}</td>
+                        </tr>
+                        <tr>
+                            <td>RAM TYPE</td>
+                            <td>{{ product_list.ram_type }}</td>
+                        </tr>
+                        <tr>
+                            <td>Storage</td>
+                            <td>{{ product_list.storage }}</td>
+                        </tr>
+                        <tr>
+                            <td>Display</td>
+                            <td>{{ product_list.display }}</td>
+                        </tr>
+                        <tr>
+                            <td>Warranty</td>
+                            <td>{{ product_list.warranty_summary }}</td>
+                        </tr>
+                        </tbody>
+                    {% elif category_type == 'mobile' %}
+                        <tbody>
+                        <tr>
+                            <td>Product Name</td>
+                            <td>{{ product_list.product_name }}</td>
+                        </tr>
+                        <tr>
+                            <td>Model Name</td>
+                            <td>{{ product_list.model_name }}</td>
+                        </tr>
+                        <tr>
+                            <td>Color</td>
+                            <td>{{ product_list.color }}</td>
+                        </tr>
+                        <tr>
+                            <td>Display</td>
+                            <td>{{ product_list.display }}</td>
+                        </tr>
+                        <tr>
+                            <td>Resolution</td>
+                            <td>{{ product_list.resolution }}</td>
+                        </tr>
+                        <tr>
+                            <td>RAM</td>
+                            <td>{{ product_list.ram }}</td>
+                        </tr>
+                        <tr>
+                            <td>Storage</td>
+                            <td>{{ product_list.storage }}</td>
+                        </tr>
+                        <tr>
+                            <td>Primary Camera</td>
+                            <td>{{ product_list.primary_camera }}</td>
+                        </tr>
+                        <tr>
+                            <td>Secondary Camera</td>
+                            <td>{{ product_list.secondary_camera }}</td>
+                        </tr>
+                        <tr>
+                            <td>Warranty</td>
+                            <td>{{ product_list.warranty_summary }}</td>
+                        </tr>
+                        </tbody>
+
+                    {% endif %}
+                </table>
+            </div>
+        </div>
+    </div><br><br><br><br><br><br><br><br>
+
+{% endblock body %}
+{% block script %}
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/elevatezoom/3.0.8/jqueryElevateZoom.js"></script>
+    <script src="http://ubislider.com/js/ubislider.min.js?v=1.0.0.1"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    {# Script for adding to cart using ajax#}
+    {#    <script>#}
+    {#        function create_post(event) {#}
+    {#            console.log("create post is working!"); // sanity check#}
+    {#            alert('Sending Request!!');#}
+    {#            var data = new FormData();#}
+    {#            data.append('product_id', {{ product_i }});#}
+    {#            data.append('csrfmiddlewaretoken', {{ csrf_token }});#}
+    {#            $.ajax({#}
+    {#                type: 'POST',#}
+    {#                url: {% url 'user:add_item' %},#}
+    {#                data: data,#}
+    {#                processData: false,#}
+    {#                contentType: false,#}
+    {#                success: function (json) {#}
+    {#                    alert(json);#}
+    {#                }#}
+    {#            });#}
+    {#        }#}
+    {#    </script>#}
+    <script>
+        $(document).ready(function () {
+            $('#add_cart').click(function () {
+                {% if user.is_authenticated %}
+                    $.ajax({
+                        type: 'GET',
+                        url: '{% url 'user:add_item' %}',
+                        dataType: "json",
+                        data: {
+                            'csrfmiddlewaretoken': '{{ csrf_token }}',
+                            'q': {{ product_i }}
+                        },
+                        success: function (json) {
+                            json = JSON.stringify(json);
+                            var json_response = JSON.parse(json);
+                            $("#cart-size").text(json_response.cart_count);
+                        }
+                    });
+                {% else %}
+                    window.location = "/user/login/";
+
+                {% endif %}
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        $('#slider4').ubislider({
+            arrowsToggle: true,
+            type: 'ecommerce',
+            hideArrows: true,
+            autoSlideOnLastClick: true,
+            modalOnClick: true,
+            onTopImageChange: function () {
+                $('#imageSlider4 img').elevateZoom();
+            }
+        });
+
+    </script>
+{% endblock script %}

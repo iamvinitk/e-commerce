@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+    <title> {% block title %} Kompany {% endblock %} </title>
+    {% load staticfiles %}
+    {% load static %}
+
+    <link href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
+    <link href="{% static 'kompany/css/style.css' %}" rel="stylesheet">
+
+
+</head>
+<body>
+<nav class="navbar navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Kompany</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="/">Home</a></li>
+            </ul>
+            <form class="navbar-form navbar-left">
+                <div class="form-group">
+                    <input id="search-input" type="text" class="form-control" placeholder="Search">
+
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+            <ul class="nav navbar-nav navbar-right">
+                {% if user.is_authenticated %}
+                    <li><a>Welcome, {{ user.get_full_name }}</a></li>
+                    <li><a href="{% url 'user:logout' %}"><span class="glyphicon glyphicon-log-out"></span>
+                        Logout</a></li>
+                    <li><a href="{% url 'user:cart' %}">
+                        <span class="glyphicon glyphicon-shopping-cart ">  </span>CART<span
+                            class="badge">{{ size }}</span>
+                    </a></li>
+                {% else %}
+                    <li><a href="{% url 'user:signup' %} "><span class="glyphicon glyphicon-user"></span> Sign Up</a>
+                    </li>
+                    <li><a href="{% url 'user:login' %}"><span class="glyphicon glyphicon-log-in"></span> Login</a>
+                    </li>
+                {% endif %}
+
+
+            </ul>
+        </div>
+    </div>
+</nav>
+<div id="main-results-search"></div>
+{%  block body %}
+    <div class="container">
+    {% if product_list %}
+        {% for product in product_list %}
+            <div class="container-fluid thumbnail">
+            <a href="{{ product.product_id_id }}">
+                <div class="row" style="text-align: center">
+                    <div class="col-md-4" style="text-align: center;  border-right: 1px solid #333;
+">
+                        <div style="text-align: center; margin-left: 10%; margin-right: 10%; height: inherit;margin-top: 5%";>
+                            <img id="{{ product.product_category }}" src="{{ product.image_src }}">
+                            <span><br></span>
+                        </div>
+                    </div>
+                    <div class="col-md-4" style="text-align: left">
+                        <div><h2>{{ product.product_name}}</h2></div>
+                        <div>
+                            <ul>
+                                <li>{{ product.product_name }}</li>
+                                <li>{{ product.ram }}</li>
+                                <li>{{ product.color }}</li>
+                                <li>{{ product.primary_camera }}</li>
+                                <li>{{ product.secondary_camera }}</li>
+                                <li>{{ product.warranty_summary }}</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div><h2>₹{{ product.price }}</h2></div>
+                    </div>
+                </div>
+                <br><br>
+            </a>
+            </div>
+            <div class="row">
+            <div class="col-md-12">
+<hr style="height:1px;border:none;color:#b0bbbb;background-color:#b0bbbb;" />
+            </div>
+            </div>
+        {% endfor %}
+    {% endif %}
+</div>
+
+{%  endblock %}
+{% block script %}
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+{#    <script src="{% static 'kompany/js/script.js' %}"></script>#}
+    <script>
+    // Implement realtime search with `keyup` function.
+
+    $('#search-input').keyup(function (event) {
+      var query =($("#search-input").val());
+
+      if (query !== '' || query !== ' ') {
+        $.ajax({
+           type: 'GET',
+           url: '{% url 'kompany:search' %}',
+           data: {
+             'csrfmiddlewaretoken': '{{ csrf_token }}',
+             'q': query
+           },
+           success: function(data) {
+              $('#main-results-search').html(data);
+           },
+           error: function(data) {
+              console.log(data);
+           }
+         });
+      }
+    });
+
+    // Removing the element after search
+    // and when user clicked another/outside of this element below.
+
+    $(document).click(function(event) {
+        var $is_inside = $(event.target).closest('#main-results-search').length;
+
+      if( event.target.id === 'search-input' || $is_inside ) {
+        return 0;
+      }else {
+        $('#results-search').remove();
+      }
+    });
+
+    //Responsive Image
+ $(document).ready(function () {
+
+         $("[id=laptop]").each(function () {
+             var width = $(this).prop('naturalWidth');
+             var height = $(this).prop('naturalHeight');
+             $(this).attr("height", height / 8 );
+             $(this).attr("width", width / 8);
+             $(this).css("padding", "10px");
+         })
+     });
+  </script>
+{% endblock %}
+</body>

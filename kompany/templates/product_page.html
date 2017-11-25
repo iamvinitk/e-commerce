@@ -1,0 +1,32 @@
+{% extends 'base_kompany.html' %}
+{% block body %}
+    {% if product_list %}
+        <div class="row">
+            <div class="col-md-6">
+                {% for image in image_list %}
+                    <img src="{{ image }}" id="product">
+                {% endfor %}
+            </div>
+        <div class="col-md-6">
+             {% for product in product_list %}
+            <h2>{{ product.product_name }}</h2>
+            <h4><strike>Price: {{ product.price }}</strike></h4>
+            <h4>Discounted Price: {{ product.discounted_price }}</h4>
+            <h4>Model Name: {{ product.model_name }}</h4>
+            <h4>Color: {{ product.color }}</h4>
+            <h4>Display Size: {{ product.display_size }}</h4>
+            <h4>Resolution: {{ product.resolution }}</h4>
+            <h4>Ram: {{ product.ram }}</h4>
+            <h4>Storage: {{ product.storage }}</h4>
+            <h4>Primary Camera: {{ product.primary_camera }}</h4>
+            <h4>Secondary Camera: {{ product.secondary_camera }}</h4>
+            <h4>Warranty: {{ product.warranty_summary }}</h4>
+        {% endfor %}
+        </div>
+        </div>
+
+
+
+
+    {% endif %}
+{% endblock %}

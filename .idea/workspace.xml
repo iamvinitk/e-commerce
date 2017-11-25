@@ -1,0 +1,890 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3182dc7e-f17e-446e-b62b-6482568108a9" name="Default" comment="Commit">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db.sqlite3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/Laptops.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/Mobiles.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/Products - Copy.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/Products.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/db.sqlite3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/fonts/Amble-Regular-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/fonts/BebasNeue-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/0001-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/0001-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/0001-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/0001-4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/0001-5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/arrow-next.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/arrow-prev.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/art.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/c-arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/c1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/c2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/c3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/cart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/delivery.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/det_pic.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/det_pic1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/det_pic2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/det_pic3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/down_arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/facebook.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/gpluse.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/icon1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/icon2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/icon3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/icon4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/icon5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/icon6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/large/0001-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/large/0001-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/large/0001-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/large/0001-4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/large/0001-5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/large/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/nav_icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/pic1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/pic2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/pic3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/pic4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/pic5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/pic6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/rss.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/sale_pic1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/sale_pic10.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/sale_pic11.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/sale_pic12.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/sale_pic2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/sale_pic3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/sale_pic4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/sale_pic5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/sale_pic6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/sale_pic7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/sale_pic8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/sale_pic9.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/search.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/search_h.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/shoe_pic1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/shoe_pic2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/shoe_pic3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/shoe_pic4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/shoe_pic5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/shoe_pic6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/slider1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/slider2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/slider3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/slider4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/slider5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/slider_bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/small/0001-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/small/0001-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/small/0001-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/small/0001-4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/small/0001-5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/small/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/top_move.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/twitter.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/up_arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/w_pic1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/w_pic2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/w_pic3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/w_pic4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/w_pic5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/images/w_pic6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/fonts/Roboto-Bold-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/fonts/Roboto-Light-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/fonts/Roboto-Regular-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/debug_toolbar/img/ajax-loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/debug_toolbar/img/back.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/debug_toolbar/img/back_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/debug_toolbar/img/close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/debug_toolbar/img/close_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/debug_toolbar/img/djdt_vertical.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/debug_toolbar/img/indicator.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/static/user/images/back-base.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/Online_Retail.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/DarVin.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/Vinit.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/Vinit_Kanani.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/vaisa.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Online_Retail/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Online_Retail/settings.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Online_Retail/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Online_Retail/wsgi.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/admin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/apps.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/migrations/0001_initial.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/migrations/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/css/category-page-css.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/css/etalage.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/css/product-page-css.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/css/ubislider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/js/jquery.etalage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/js/jqueryElevateZoom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/js/script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/js/scripts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/js/search.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/js/ubislider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/css/owl.carousel.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/css/productviewgallery.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/css/slider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/js/cloud-zoom.1.0.3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/js/easing.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/js/fliplightbox.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/js/jquery.cslider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/js/jquery.easing.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/js/jquery.fancybox-buttons.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/js/jquery.fancybox-thumbs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/js/jquery.fancybox.pack.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/js/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/js/jquery.mixitup.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/js/modernizr.custom.28468.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/js/move-top.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/js/owl.carousel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/js/productviewgallery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/static/kompany/web/js/responsive.menu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/templates/base_kompany.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/templates/category-page.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/templates/category_list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/templates/home_page.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/templates/product-page-2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/templates/product-page.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/templates/product_page.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/templates/product_page2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/templates/search.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/templates/start_page.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/templates/temo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kompany/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/requirements.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/css/base.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/css/changelists.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/css/dashboard.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/css/fonts.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/css/forms.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/css/login.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/css/rtl.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/css/widgets.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/fonts/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/fonts/README.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/README.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/calendar-icons.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/gis/move_vertex_off.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/gis/move_vertex_on.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/icon-addlink.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/icon-alert.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/icon-calendar.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/icon-changelink.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/icon-clock.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/icon-deletelink.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/icon-no.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/icon-unknown-alt.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/icon-unknown.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/icon-yes.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/inline-delete.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/search.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/selector-icons.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/sorting-icons.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/tooltag-add.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/tooltag-arrowright.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/SelectBox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/SelectFilter2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/actions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/actions.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/admin/DateTimeShortcuts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/admin/RelatedObjectLookups.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/calendar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/cancel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/change_form.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/collapse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/collapse.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/core.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/inlines.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/inlines.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/jquery.init.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/popup_response.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/prepopulate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/prepopulate.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/prepopulate_init.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/timeparse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/urlify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/jquery/LICENSE-JQUERY.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/jquery/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/jquery/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/LICENSE-XREGEXP.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/xregexp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/xregexp.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/debug_toolbar/css/print.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/debug_toolbar/css/toolbar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/debug_toolbar/js/jquery_existing.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/debug_toolbar/js/jquery_post.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/debug_toolbar/js/jquery_pre.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/debug_toolbar/js/toolbar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/debug_toolbar/js/toolbar.profiling.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/debug_toolbar/js/toolbar.sql.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/debug_toolbar/js/toolbar.template.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/debug_toolbar/js/toolbar.timer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/import_export/action_formats.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/admin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/apps.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/forms.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/migrations/0001_initial.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/migrations/0002_auto_20171101_1056.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/migrations/0003_cart.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/migrations/0004_auto_20171101_1059.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/migrations/0005_cart.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/migrations/0006_addressbook_orders.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/migrations/0007_orders_status.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/migrations/0008_auto_20171123_1053.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/migrations/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/static/user/css/animate.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/static/user/css/cart-css.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/static/user/css/checkout-css.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/static/user/css/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/static/user/css/style1.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/static/user/jakaba/css/animate.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/static/user/jakaba/css/animate.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/static/user/jakaba/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/static/user/jakaba/css/jquery-ui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/static/user/jakaba/css/jquery.bxslider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/static/user/jakaba/css/jquery.simpleGallery.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/static/user/jakaba/css/jquery.simpleLens.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/static/user/jakaba/css/responsive.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/static/user/jakaba/css/skdslider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/static/user/jakaba/css/slick-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/static/user/jakaba/css/slick.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/static/user/jakaba/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/static/user/jakaba/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/static/user/jakaba/js/check_out.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/static/user/jakaba/js/elevatezoom.jquery.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/static/user/jakaba/js/jquery-1.11.3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/static/user/jakaba/js/jquery-1.8.3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/static/user/jakaba/js/jquery-2.1.1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/static/user/jakaba/js/jquery-3.2.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/static/user/jakaba/js/jquery-ui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/static/user/jakaba/js/jquery.bxslider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/static/user/jakaba/js/jquery.bxslider.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/static/user/jakaba/js/jquery.elevateZoom-3.0.8.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/static/user/jakaba/js/jquery.elevatezoom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/static/user/jakaba/js/jquery.simpleGallery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/static/user/jakaba/js/jquery.simpleGallery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/static/user/jakaba/js/jquery.simpleLens.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/static/user/jakaba/js/jquery.simpleLens.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/static/user/jakaba/js/jquery.validate.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/static/user/jakaba/js/jssor.slider-23.1.5.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/static/user/jakaba/js/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/static/user/jakaba/js/my.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/static/user/jakaba/js/owl.carousel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/static/user/jakaba/js/skdslider.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/static/user/jakaba/js/slick.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/static/user/jakaba/js/slider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/static/user/js/jquery-3.2.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/static/user/js/slick.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/templates/base.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/templates/cart.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/templates/cart2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/templates/checkout.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/templates/checkout2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/templates/login.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/templates/order-placed.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/templates/signup.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/templates/temp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/templatetags/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/templatetags/user_extras.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user/views.py" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="cart.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/user/templates/cart.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="50" column="1" lean-forward="false" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Con</find>
+      <find>js/</find>
+      <find>../static</find>
+      <find>.0.</find>
+      <find>search-input</find>
+      <find>main-results-search</find>
+      <find>summary</find>
+      <find>#</find>
+      <find>product_id</find>
+      <find>btnSubmit</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>{% static 'cart/js/'</replace>
+      <replace>/static</replace>
+      <replace>.</replace>
+      <replace>summary</replace>
+      <replace>SUMMARY</replace>
+      <replace>product_id_id</replace>
+      <replace>product_name</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$USER_HOME$/Downloads/elixir-single/elixir-single/elixir-single-product-ecommerce-template/elixir/cart.html" />
+        <option value="$PROJECT_DIR$/user/static/cart/css/main.css" />
+        <option value="$PROJECT_DIR$/user/templates/cart2.html" />
+        <option value="$PROJECT_DIR$/kompany/static/kompany/css/category-page-css.css" />
+        <option value="C:/xampp/htdocs/jakaba_product_detail/js/check_out.js" />
+        <option value="$PROJECT_DIR$/user/templates/checkout2.html" />
+        <option value="$PROJECT_DIR$/user/static/user/css/cart-css.css" />
+        <option value="$PROJECT_DIR$/kompany/static/kompany/js/search.js" />
+        <option value="$PROJECT_DIR$/kompany/static/kompany/css/style.css" />
+        <option value="$PROJECT_DIR$/kompany/templates/category-page.html" />
+        <option value="$PROJECT_DIR$/user/templates/order-placed.html" />
+        <option value="$PROJECT_DIR$/user/models.py" />
+        <option value="$PROJECT_DIR$/kompany/static/kompany/js/script.js" />
+        <option value="$PROJECT_DIR$/kompany/templates/home_page.html" />
+        <option value="$PROJECT_DIR$/user/static/user/css/main.css" />
+        <option value="$PROJECT_DIR$/user/forms.py" />
+        <option value="$PROJECT_DIR$/user/urls.py" />
+        <option value="$PROJECT_DIR$/kompany/views.py" />
+        <option value="$PROJECT_DIR$/kompany/templates/base_kompany.html" />
+        <option value="$PROJECT_DIR$/kompany/templates/product-page.html" />
+        <option value="$PROJECT_DIR$/Online_Retail/settings.py" />
+        <option value="$PROJECT_DIR$/user/views.py" />
+        <option value="$PROJECT_DIR$/user/templates/base.html" />
+        <option value="$PROJECT_DIR$/user/templates/signup.html" />
+        <option value="$PROJECT_DIR$/user/static/user/css/style1.css" />
+        <option value="$PROJECT_DIR$/user/templates/login.html" />
+        <option value="$PROJECT_DIR$/user/templatetags/user_extras.py" />
+        <option value="$PROJECT_DIR$/user/static/user/jakaba/css/style.css" />
+        <option value="$PROJECT_DIR$/user/static/user/css/checkout-css.css" />
+        <option value="$PROJECT_DIR$/user/templates/checkout.html" />
+        <option value="$PROJECT_DIR$/user/templates/cart.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="274" />
+    <option name="y" value="-17" />
+    <option name="width" value="683" />
+    <option name="height" value="728" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Online_Retail" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Online_Retail" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\Online_Retail\user\static\user\jakaba" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\Online_Retail\user\templates" />
+      <recent name="H:\Online_Retail\user\static\user\jakaba" />
+      <recent name="H:\Online_Retail\user\static\user\css" />
+      <recent name="H:\Online_Retail\user\static\user\js" />
+      <recent name="H:\Online_Retail\user\static\cart" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Django server.Kompany">
+    <configuration name="Kompany" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="Online_Retail.settings" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Python36-32\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Online_Retail" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="192.168.43.78" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3182dc7e-f17e-446e-b62b-6482568108a9" name="Default" comment="" />
+      <created>1511337878177</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1511337878177</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3494705" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6825658" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32809773" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Concurrent Activities Diagram" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6825658" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32809773" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3441755" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Concurrent Activities Diagram" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.php" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/user/static/user/js/jquery-3.2.1.min.js" />
+    <entry file="file://$PROJECT_DIR$/user/static/user/js/slick.js" />
+    <entry file="file://$PROJECT_DIR$/user/static/user/css/animate.css" />
+    <entry file="file://C:/xampp/htdocs/jakaba_product_detail/js/check_out.js" />
+    <entry file="file://$PROJECT_DIR$/user/static/user/jakaba/js/my.js" />
+    <entry file="file://C:/xampp/htdocs/jakaba_product_detail/inc/head.inc.php" />
+    <entry file="file://C:/xampp/htdocs/jakaba_product_detail/inc/footerscript.inc.php" />
+    <entry file="file://C:/xampp/htdocs/jakaba_product_detail/inc/footer.inc.php" />
+    <entry file="file://$PROJECT_DIR$/user/static/user/jakaba/js/my.js" />
+    <entry file="file://C:/xampp/htdocs/jakaba_product_detail/check_out.php" />
+    <entry file="file://$PROJECT_DIR$/user/static/user/jakaba/js/main.js" />
+    <entry file="file://$PROJECT_DIR$/user/templates/checkout2.html" />
+    <entry file="file://G:/E@/Django/Foodspark/foodspark/views.py" />
+    <entry file="file://$PROJECT_DIR$/user/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python36-32/Lib/site-packages/django/shortcuts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-119">
+          <caret line="33" column="4" lean-forward="false" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kompany/static/kompany/css/product-page-css.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kompany/static/kompany/js/search.js" />
+    <entry file="file://$PROJECT_DIR$/user/static/user/css/cart-css.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kompany/static/kompany/css/category-page-css.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kompany/static/kompany/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="135" column="10" lean-forward="false" selection-start-line="135" selection-start-column="10" selection-end-line="135" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kompany/templates/category-page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/templates/order-placed.html" />
+    <entry file="file://C:/Python36/Lib/site-packages/django/contrib/auth/models.py" />
+    <entry file="file://$PROJECT_DIR$/kompany/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Online_Retail/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kompany/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kompany/static/kompany/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-124">
+          <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kompany/templates/search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="83" lean-forward="false" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kompany/templates/home_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1706">
+          <caret line="157" column="77" lean-forward="false" selection-start-line="157" selection-start-column="77" selection-end-line="157" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="20" column="38" lean-forward="false" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/static/user/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1501">
+          <caret line="79" column="38" lean-forward="false" selection-start-line="79" selection-start-column="38" selection-end-line="79" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="29" column="67" lean-forward="false" selection-start-line="29" selection-start-column="67" selection-end-line="29" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2017.2/system/python_stubs/-273572998/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="488" column="8" lean-forward="true" selection-start-line="488" selection-start-column="0" selection-end-line="489" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kompany/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kompany/templates/product-page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="39" column="20" lean-forward="true" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+          <folding>
+            <element signature="e#1510#1530#0#HTML" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kompany/templates/base_kompany.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="48" column="55" lean-forward="false" selection-start-line="48" selection-start-column="55" selection-end-line="48" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python36-32/Lib/site-packages/django/http/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="41" lean-forward="false" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Online_Retail/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-808">
+          <caret line="24" column="12" lean-forward="false" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="12" column="90" lean-forward="false" selection-start-line="12" selection-start-column="90" selection-end-line="12" selection-end-column="90" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1026">
+          <caret line="15" column="33" lean-forward="false" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/templates/signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="25" column="80" lean-forward="false" selection-start-line="25" selection-start-column="80" selection-end-line="25" selection-end-column="80" />
+          <folding>
+            <element signature="e#855#861#1#HTML" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="60" column="20" lean-forward="false" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
+          <folding>
+            <element signature="e#2514#2554#0#HTML" expanded="false" />
+            <element signature="e#3612#3618#1#HTML" expanded="false" />
+            <marker date="1511611868000" expanded="false" signature="1061:1093" ph="..." />
+            <marker date="1511611868000" expanded="false" signature="1805:1815" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/static/user/css/style1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="29" lean-forward="false" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/templatetags/user_extras.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/static/user/jakaba/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="1742" column="17" lean-forward="false" selection-start-line="1742" selection-start-column="17" selection-end-line="1742" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/static/user/css/checkout-css.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/templates/checkout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1852">
+          <caret line="390" column="105" lean-forward="true" selection-start-line="390" selection-start-column="105" selection-end-line="390" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/templates/cart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="50" column="1" lean-forward="false" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

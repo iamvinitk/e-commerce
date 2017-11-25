@@ -1,0 +1,462 @@
+<html>
+<head>
+    {% load static %}
+    {% load user_extras %}
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+    <title>Kompany | Cart</title>
+
+    <link rel="stylesheet" type="text/css" href="/static/user/jakaba/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Play|Raleway|Ubuntu" rel="stylesheet">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/static/user/jakaba/css/jquery-ui.css">
+    <link rel="stylesheet" href="{% static 'user/css/checkout-css.css' %}">
+    <script type="text/javascript" src="/static/user/jakaba/js/jquery-3.2.1.min.js"></script>
+    <script src="/static/user/jakaba/js/jquery-ui.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+
+    <script>
+        $(function () {
+            $("#accordion").accordion();
+        });
+    </script>
+    <script type="text/javascript">
+        $(function () {
+
+            $('#login-form-link').click(function (e) {
+                $("#login-form").delay(100).fadeIn(100);
+                $("#register-form").fadeOut(100);
+                $('#register-form-link').removeClass('active');
+                $(this).addClass('active');
+                e.preventDefault();
+            });
+            $('#register-form-link').click(function (e) {
+                $("#register-form").delay(100).fadeIn(100);
+                $("#login-form").fadeOut(100);
+                $('#login-form-link').removeClass('active');
+                $(this).addClass('active');
+                e.preventDefault();
+            });
+
+        });
+
+    </script>
+    <script type="text/javascript">
+        $(document).on('ready', function () {
+            $(".regular").slick({
+                dots: true,
+                infinite: true,
+                slidesToShow: 3,
+                slidesToScroll: 3
+            });
+            $(".center").slick({
+                dots: true,
+                infinite: true,
+                centerMode: true,
+                slidesToShow: 3,
+                slidesToScroll: 3
+            });
+            $(".variable").slick({
+                dots: true,
+                infinite: true,
+                variableWidth: true
+            });
+        });
+    </script>
+
+</head>
+<body>
+
+<div class="checkout">
+    <div class="container">
+        <div id="accordion" class="accmenu">
+            {% if user.is_authenticated %}
+            {% else %}
+                <h3>LOGIN ID</h3>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-md-offset-3">
+                            <div class="panel panel-login">
+                                <div class="panel-heading">
+                                    <div class="row">
+                                        <div class="col-xs-6">
+                                            <a href="#" class="active" id="login-form-link">Login</a>
+                                        </div>
+                                        <div class="col-xs-6">
+                                            <a href="#" id="register-form-link">Register</a>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                </div>
+                                <div class="panel-body">
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <form id="login-form" action="" method="post"
+                                                  role="form" style="display: block; height: 355px; ">
+                                                <div class="form-group">
+                                                    <input type="text" name="username" id="username" tabindex="1"
+                                                           class="form-control" placeholder="Username" value="">
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="password" name="password" id="password" tabindex="2"
+                                                           class="form-control txt2" placeholder="Password">
+                                                </div>
+                                                <div class="form-group text-center">
+                                                    <input type="checkbox" tabindex="3" class="" name="remember"
+                                                           id="remember">
+                                                    <label for="remember"> Remember Me</label>
+                                                </div>
+
+                                                <div class="form-group">
+                                                    <div class="row">
+                                                        <div class="col-sm-6 col-sm-offset-3">
+                                                            <input type="send" name="login-submit" id="login-submit"
+                                                                   tabindex="4" class="form-control btn btn-login"
+                                                                   value="Log In">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <div class="row">
+                                                        <div class="col-lg-12">
+                                                            <div class="text-center">
+                                                                <a href="#" tabindex="5" class="forgot-password">Forgot
+                                                                    Password?</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                            <form id="register-form" action="#" method="post" role="form"
+                                                  style="display: none;">
+                                                <div class="form-group">
+                                                    <input type="text" name="username" id="username" tabindex="1"
+                                                           class="form-control" placeholder="Username" value="">
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="email" name="email" id="email" tabindex="1"
+                                                           class="form-control" placeholder="Email Address" value="">
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="password" name="password" id="password" tabindex="2"
+                                                           class="form-control txt2" placeholder="Password">
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="password" name="confirm-password" id="confirm-password"
+                                                           tabindex="2" class="form-control txt2"
+                                                           placeholder="Confirm Password">
+                                                </div>
+                                                <div class="form-group">
+                                                    <div class="row">
+                                                        <div class="col-sm-6 col-sm-offset-3">
+                                                            <input type="send" name="register-submit"
+                                                                   id="register-submit"
+                                                                   tabindex="4"
+                                                                   class="form-control btn btn-register sbtbtn"
+                                                                   value="Register Now">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div><!--panel body end -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% endif %}
+
+            {% if address %}
+            {% else %}
+                <h3>DELIVERY ADDRESS</h3>
+                <div class="row">
+                    <div class="col-md-12 col-md-offset-0">
+                        <form class="form-horizontal" action="{% url 'user:add_address' %}" method="post">
+                            {% csrf_token %}
+                            <fieldset>
+                                <!-- Form Name -->
+                                <legend>Address Details</legend>
+
+                                <!-- Text input-->
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label" for="textinput">House No.</label>
+                                    <div class="col-sm-10">
+                                        <input type="text" name='house' placeholder="House Number" class="form-control" required>
+                                    </div>
+                                </div>
+
+                                <!-- Text input-->
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label" for="textinput">Locality</label>
+                                    <div class="col-sm-10">
+                                        <input type="text" name='locality' placeholder="Locality" class="form-control" required>
+                                    </div>
+                                </div>
+
+                                <!-- Text input-->
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label" for="textinput">Region</label>
+                                    <div class="col-sm-10">
+                                        <input type="text" name='region' placeholder="Region" class="form-control" required>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label" for="textinput">Post Code</label>
+                                    <div class="col-sm-10">
+                                        <input type="text" name="postcode" placeholder="Post Code" class="form-control" required>
+                                    </div>
+                                </div>
+
+                                <!-- Text input-->
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label" for="textinput">Country</label>
+                                    <div class="col-sm-10">
+                                        <input type="text" name="country" placeholder="Country" class="form-control" required>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="col-sm-offset-0 col-sm-4">
+                                        <div class="pull-right">
+                                            <button type="reset" class="btn btn-default sbtbtn2">Cancel</button>
+                                            <button type="submit" class="btn btn-primary sbtbtn2">Save</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </fieldset>
+                        </form>
+                    </div><!-- /.col-lg-12 -->
+                </div>
+            {% endif %}
+
+            <h3>ORDER SUMMARY</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="invoice-title">
+                            <h2>#{{ order_no }}</h2>
+                            <hr>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-6">
+                                {% if address %}
+                                    <address>
+                                        <strong>Billed To:</strong><br>
+                                        {{ user.get_full_name }}<br>
+                                        {{ address.house_number }}<br>
+                                        {{ address.locality }}<br>
+                                        {{ address.region }}<br>
+                                        {{ address.postcode }}<br>
+                                        {{ address.country }}
+                                    </address>
+                                {% else %}
+                                    <strong>Please fill the above details</strong>
+                                {% endif %}
+                            </div>
+                            <div class="col-xs-6 text-right">
+                                <address>
+                                    <strong>Shipped To:</strong><br>
+                                    {{ user.get_full_name }}<br>
+                                    {{ address.house_number }}<br>
+                                    {{ address.locality }}<br>
+                                    {{ address.region }}<br>
+                                    {{ address.postcode }}<br>
+                                    {{ address.country }}
+                                </address>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title"><strong>Order placed on {% now 'j/m/Y' %}</strong></h3>
+                            </div>
+                            <div class="panel-body">
+                                <div class="table-responsive">
+                                    <table class="table table-condensed">
+                                        <thead>
+                                        <tr>
+                                            <td><strong>Product</strong></td>
+                                            <td class="text-center"><strong>Price</strong></td>
+                                            <td class="text-center"><strong>Quantity</strong></td>
+                                            <td class="text-center"><strong>Order Status</strong></td>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <!-- foreach ($order->lineItems as $line) or some such thing here -->
+                                        {% for item in order_items %}
+                                            <tr>
+                                                <td class="col-md-3">
+                                                    <div class="media">
+                                                        <a class="thumbnail pull-left" href="#"> <img
+                                                                class="media-object"
+                                                                src="/static/kompany/images/{{ item.product.category_type_id }}s/{{ item.product_id }}-0.jpeg"
+                                                                style="width: 72px; height: 72px;">
+                                                        </a>
+                                                        <div class="media-body">
+                                                            <h6 class="media-heading">{{ item.product.product_name }}</h6>
+                                                            <h6 class="media-heading">{{ item.product.product_id }}</h6>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td class="text-center">{{ item.product.discounted_price }}</td>
+                                                <td class="text-center">{{ item.quantity }}</td>
+                                                <td class="text-center">Processing</td>
+
+                                            </tr>
+                                        {% endfor %}
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="col-md-4">
+                            <h3 class="text-center">Order Summary</h3>
+                            <hr>
+                            <div class="pull-left"><h4>Subtotal</h4></div>
+                            <div class="pull-right"><h4 class="text-right">₹{% multiply price 1 %}</h4></div>
+                            <div class="clearfix"></div>
+                            <div class="pull-left"><h4>GST @18%</h4></div>
+                            <div class="pull-right"><h4 class="text-right">₹{% multiply price .18 %}</h4></div>
+                            <div class="clearfix"></div>
+                            <div class="pull-left"><h4>Order Total</h4></div>
+                            <div class="pull-right"><h4 class="text-right">₹{% multiply price 1.18 %}</h4></div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="col-md-4 offset-md-1">
+                            <h3 class="text-center">Payment Type</h3>
+                            <hr>
+                            <div class="text-center">
+                                <strong>Payment Pending</strong><br>
+                            </div>
+                        </div>
+                        <div class="col-md-4 offset-md-2">
+                            <h3 class="text-center">Other Info</h3>
+                            <hr>
+                            <address>
+                                    <strong>Shipped To:</strong><br>
+                                    {{ user.get_full_name }}<br>
+                                    {{ address.house_number }}<br>
+                                    {{ address.locality }}<br>
+                                    {{ address.region }}<br>
+                                    {{ address.postcode }}<br>
+                                    {{ address.country }}
+                                </address>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h3>PAYMENT</h3>
+            <div class="panel panel-info">
+                <form action="{% url 'user:order_placed' %}" method="get">
+                <div class="panel-heading"><span><i class="glyphicon glyphicon-lock"></i></span> Secure Payment</div>
+                <div class="panel-body">
+                    <div class="form-group">
+                        <div class="col-md-12"><strong>Card Type:</strong></div>
+                        <div class="col-md-12" style="margin:15px 0px">
+                            <select id="CreditCardType" name="CreditCardType" class="form-control" style="width: 50%;" required>
+                                <option value="5">Visa</option>
+                                <option value="6">MasterCard</option>
+                                <option value="7">American Express</option>
+                                <option value="8">Discover</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-12"><strong>Credit Card Number:</strong></div>
+                        <div class="col-md-12" style="margin:15px 0px"><input type="number" minlength="12" maxlength="12" class="form-control" title=""
+                                                                              name="car_number" value="" required></div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-12"><strong>Card CVV:</strong></div>
+                        <div class="col-md-12" style="margin:15px 0px"><input type="number" maxlength="3" class="form-control" required title="Abcd"
+                                                                              name="car_code" value=""></div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-12 " style="margin:15px 0px">
+                            <strong>Expiration Date</strong>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                            <select class="form-control" name="" style="width: 20%;" required>
+                                <option value="">Month</option>
+                                <option value="01">01</option>
+                                <option value="02">02</option>
+                                <option value="03">03</option>
+                                <option value="04">04</option>
+                                <option value="05">05</option>
+                                <option value="06">06</option>
+                                <option value="07">07</option>
+                                <option value="08">08</option>
+                                <option value="09">09</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                            </select>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                            <select class="form-control" name="" style="width:25%; " id="yr" required>
+                                <option value="">Year</option>
+                                <option value="2015">2015</option>
+                                <option value="2016">2016</option>
+                                <option value="2017">2017</option>
+                                <option value="2018">2018</option>
+                                <option value="2019">2019</option>
+                                <option value="2020">2020</option>
+                                <option value="2021">2021</option>
+                                <option value="2022">2022</option>
+                                <option value="2023">2023</option>
+                                <option value="2024">2024</option>
+                                <option value="2025">2025</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-12 title">
+                            <span>Pay secure using your credit card.</span>
+                        </div>
+                        <div class="col-md-12 title">
+                            <ul class="cards">
+                                <li class="visa hand">Visa</li>
+                                <li class="mastercard hand">MasterCard</li>
+                                <li class="amex hand">Amex</li>
+                            </ul>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <a href=""><button type="submit" class="btn btn-primary btn-submit-fix">Place Order</button></a>
+                        </div>
+                    </div>
+                </div>
+                    </form>
+            </div>
+        </div><!-- accordition end -->
+    </div>
+</div><!--checkout end -->
+<br><br><br><br><br><br><br><br>
+
+<script type="text/javascript" src="/static/user/jakaba/js/jquery.validate.min.js"></script>
+<script src="/static/user/jakaba/js/bootstrap.js"></script>
+<script src="/static/user/jakaba/js/jquery.bxslider.js"></script>
+</body>
+</html>

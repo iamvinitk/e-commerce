@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% load static %}
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cart || Kompany</title>
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,500' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="{% static 'cart/css/bootstrap.min.css' %}" />
+	<link rel="stylesheet" href="{% static 'cart/css/font-awesome.min.css' %}" />
+    <link rel="stylesheet" href="{% static 'cart/css/responsive.css' %}"/>
+  </head>
+  <body>
+	<div class="cart-page-content page-section-padding">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="cart_title">
+						<h4>Shopping Cart</h4>
+					</div>
+					<div class="table-responsive">
+						<table class="cart-table text-center">
+							<thead>
+								<tr id="cart_th">
+									<th>#</th>
+									<th>Image</th>
+									<th>Product name</th>
+									<th>QUANTITY</th>
+									<th>Price</th>
+									<th>Total</th>
+									<th>Remove</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>1</td>
+									<td>
+										<a href="#"><img alt="" class="img-responsive" src="images/cartpage/cart-product-1.png"></a>
+									</td>
+									<td>
+										<h6><a href="#">Lorem ipsum dolor sit amet,</a></h6>
+									</td>
+									<td>
+										<form id="qua_in" action="action_page.php">
+											<input type="number" value="1" name="quantity" min="1" max="5">
+										</form>
+									</td>
+									<td>
+										<div class="cart-price">$104.99</div>
+									</td>
+									<td>
+										<div class="cart-subtotal">$104.99</div>
+									</td>
+									<td><i class="fa fa-trash"></i></td>
+								</tr>
+								<tr>
+									<td>2</td>
+									<td>
+										<a href="#"><img alt="" class="img-responsive" src="images/cartpage/cart-product-2.png"></a>
+									</td>
+									<td>
+										<h6><a href="#">Lorem ipsum dolor sit amet,</a></h6>
+									</td>
+									<td>
+										<form id="qua_in_2" action="action_page.php">
+											<input type="number" value="1" name="quantity" min="1" max="10">
+										</form>
+									</td>
+									<td>
+										<div class="cart-price">$85.99</div>
+									</td>
+									<td>
+										<div class="cart-subtotal">$85.99</div>
+									</td>
+									<td><i class="fa fa-trash"></i></td>
+								</tr>
+								<tr id="total_colspan">
+									<td colspan="3" class="text-left">total</td>
+									<td>
+										2
+									</td>
+									<td>
+										190.98$
+									</td>
+									<td colspan="2">
+										<a class="checkPageBtn" href="#">add to wishlist</a>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Cart-Page-Content-End -->
+	<!-- Footer-Section-Start -->
+	<footer>
+		<div class="footer_top footer-padding">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12 col-sm-6">
+						<div class="newsletter">
+							<h4>Sign up for newSletter</h4>
+						</div>
+					</div>
+					<div class="col-sm-12 col-sm-6">
+						<div class="newsletter text-right">
+							<input class="news_input" type="text" value="" placeholder="Email Address"/>
+							<input class="subscribe_btn" type="button" value="subscribe"/>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--<div class="footer_middel footer-padding">-->
+			<!--<div class="container">-->
+				<!--<div class="row">-->
+					<!--<div class="col-sm-6 col-md-3">-->
+						<!--<div class="footer_link address">-->
+							<!--<p>Elixir fashion</p>-->
+							<!--<ul>-->
+								<!--<li><span>Addresss: </span>ipsum 125 Pall Mall, London, England</li>-->
+								<!--<li><span>Phone: </span>(0123) 345 6789</li>-->
+								<!--<li><span>Email: </span>info@domain.com</li>-->
+							<!--</ul>-->
+						<!--</div>-->
+						<!--<div class="footer_icon">-->
+							<!--<ul>-->
+								<!--<li><a href="#"><i class="fa fa-facebook"></i></a></li>-->
+								<!--<li><a href="#"><i class="fa fa-twitter"></i></a></li>-->
+								<!--<li><a href="#"><i class="fa fa-linkedin"></i></a></li>-->
+								<!--<li><a href="#"><i class="fa fa-google-plus"></i></a></li>-->
+							<!--</ul>-->
+						<!--</div>-->
+					<!--</div>-->
+					<!--<div class="col-sm-6 col-md-3">-->
+						<!--<div class="footer_link">-->
+							<!--<p>My account</p>-->
+							<!--<ul>-->
+								<!--<li><a href="#">My Account</a></li>-->
+								<!--<li><a href="cart.html">Shopping Cart</a></li>-->
+								<!--<li><a href="#">My Wishlist</a></li>-->
+								<!--<li><a href="#">My Credit Slip</a></li>-->
+								<!--<li><a href="#">Account Information</a></li>-->
+							<!--</ul>-->
+						<!--</div>-->
+					<!--</div>-->
+					<!--<div class="col-sm-6 col-md-3">-->
+						<!--<div class="footer_link res_mar">-->
+							<!--<p>customer support</p>-->
+							<!--<ul>-->
+								<!--<li><a href="#">7/24 Hour Support</a></li>-->
+								<!--<li><a href="#">Refound Policy</a></li>-->
+								<!--<li><a href="#">Shipping Guide</a></li>-->
+								<!--<li><a href="#">International Shipping</a></li>-->
+								<!--<li><a href="#">Career</a></li>-->
+							<!--</ul>-->
+						<!--</div>-->
+					<!--</div>-->
+					<!--<div class="col-sm-6 col-md-3">-->
+						<!--<div class="footer_link res_mar">-->
+							<!--<p>information</p>-->
+							<!--<ul>-->
+								<!--<li><a href="#">About Our Shop</a></li>-->
+								<!--<li><a href="#">Secure Shopping</a></li>-->
+								<!--<li><a href="#">Delivery Information</a></li>-->
+								<!--<li><a href="#">Company Site Map</a></li>-->
+								<!--<li><a href="#">Privecy Policy</a></li>-->
+							<!--</ul>-->
+						<!--</div>-->
+					<!--</div>-->
+				<!--</div>-->
+			<!--</div>-->
+		<!--</div>-->
+		<div class="footer_bottom footer-padding">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6 col-xs-12">
+						<div class="copyright">
+							<p>Copyright 2015 <a href="http://designscrazed.org/">Allie</a> All rights reserved</p>
+						</div>
+					</div>
+					<div class="col-sm-6 col-xs-12">
+						<div class="copyright_icon text-right">
+							<a href="#"><img src="images/footer/paypal-1.png" alt="" /></a>
+							<a href="#"><img src="images/footer/paypal-2.png" alt="" /></a>
+							<a href="#"><img src="images/footer/paypal-3.png" alt="" /></a>
+							<a href="#"><img src="images/footer/paypal-4.png" alt="" /></a>
+							<a href="#"><img src="images/footer/paypal-5.png" alt="" /></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- Footer-Section-End -->
+	<!-- All js Files Here -->
+	<!-- jquery-1.11.3 -->
+    <script src="{% static 'cart/js/jquery-1.11.3.min.js' %}"></script>
+	<!-- bootstrap js -->
+    <script src="{% static 'cart/js/bootstrap.min.js' %}"></script>
+	<!-- search-box js -->
+{#    <script src="{% static 'cart/js/'search-box.js"></script>#}
+	<!-- scrollUp js -->
+    <script src="{% static 'cart/js/jquery.scrollUp.js' %}"></script>
+	<!-- mobilemenu js -->
+    <script src="{% static 'cart/js/jquery.meanmenu.js' %}"></script>
+	<!-- main js -->
+    <script src="{% static 'cart/js/main.js' %}"></script>
+  </body>
+</html>

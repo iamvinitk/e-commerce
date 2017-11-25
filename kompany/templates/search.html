@@ -1,0 +1,11 @@
+{#<ul id="results-search">#}
+{#    {% for product in products %}#}
+{#        <li><a href="#" class="thumbnail">{{ product.product_name }}</a></li>#}
+{#    {% endfor %}#}
+{#</ul>#}
+<ul class="list-group" id="results-search">
+    {% for product in products %}
+        <li class="list-group-item"><a href="/home/product/{{ product.product_id }}">{{ product.product_name }} in &nbsp<span><b>{{ product.category_type }}</b></span></a>
+        </li>
+    {% endfor %}
+</ul>

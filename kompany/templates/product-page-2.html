@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<img id="img_01" src="small/image1.jpg" data-zoom-image="large/image1.jpg"/>
+
+<div id="zoom_03">
+    {% for image in image_list %}
+             <a href="#" data-image="{{ image }}" data-zoom-image="{{ image }}">
+        <img id="img_01" src="{{ image }}"/>
+    </a>
+        {% endfor %}
+</div>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+<script type="text/javascript"
+        src="https://cdn.rawgit.com/igorlino/elevatezoom-plus/1.1.6/src/jquery.ez-plus.js"></script>
+<script>$('#zoom_03').ezPlus({
+    gallery: 'gallery_01', cursor: 'pointer', galleryActiveClass: 'active',
+    imageCrossfade: true, loadingIcon: 'http://www.elevateweb.co.uk/spinner.gif'
+});
+
+//pass the images to Fancybox
+$('#zoom_03').bind('click', function (e) {
+    var ez = $('#zoom_03').data('ezPlus');
+    $.fancyboxPlus(ez.getGalleryList());
+    return false;
+});</script>
+<style>#gallery_01 img {
+    border: 2px solid white;
+}
+
+/*Change the colour*/
+.active img {
+    border: 2px solid #333 !important;
+}</style>
+</body>
+</html>

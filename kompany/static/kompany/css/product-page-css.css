@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+    margin: 20px;
+    padding-top: 10rem;
+    background: #fff;
+    /*font-family: 'Monospaced', cursive;*/
+}
+
+.container{
+    margin-top: 5em;
+}
+nav {
+    background-color: #0099FF;
+    min-height: 80px !important;
+    padding-top: 15px;
+}
+
+input {
+    text-align: left;
+    min-width: 400px !important;
+}
+
+.icon-bar {
+    background-color: #123123 !important;
+}
+
+nav input {
+    margin-left: 80px;
+}
+
+div h2 {
+    vertical-align: middle !important;
+}

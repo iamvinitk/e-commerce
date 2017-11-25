@@ -1,0 +1,159 @@
+
+body {
+    text-align: center;
+    margin: 20px;
+    padding-top: 10rem;
+    background: #fff;
+    /*font-family: 'Monospaced', cursive;*/
+}
+
+nav {
+    background-color: #0099FF;
+    min-height: 80px !important;
+    padding-top: 15px;
+}
+
+input {
+    text-align: left;
+    min-width: 400px !important;
+}
+
+.icon-bar {
+    background-color: #123123 !important;
+}
+
+nav input {
+    margin-left: 80px;
+}
+
+div h2 {
+    vertical-align: middle !important;
+}
+
+.vcenter {
+    padding-top: 5%;
+    vertical-align: middle !important;
+}
+
+.img-carousel {
+    transform: scale(1.5, 1);
+    min-height: 300px !important;
+}
+
+/*Start of product-slider*/
+/*slider css*/
+.slider {
+    background: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px 2px #ccc;
+    margin-top: 2em;
+}
+
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+.content h2 {
+    font-family: ubuntu monospace;
+    margin-bottom: 30px;
+
+}
+
+.view {
+    background: #2874F0;
+    border: 1px solid #2874F0;
+    color: #fff;
+    font-family: roboto monospace;
+    font-weight: 400;
+    text-transform: uppercase;
+    box-shadow: 0px 0px 2px 2px #ccc;
+}
+
+.product-slider {
+    margin: 0px 1em 0px 0em !important;
+}
+
+/*slider css*/
+/* carousel */
+.media-carousel {
+    margin-top: 2em;
+
+    margin-bottom: 0;
+    padding: 0px 10px 10px 10px;
+}
+
+/* Previous button  */
+.media-carousel .carousel-control.left {
+    left: -5px !important;
+    background-image: none;
+    border: 0px solid #FFFFFF;
+    border-radius: 8px;
+    height: 200px;
+    opacity: 1 !important;
+    width: 50px;
+    margin-top: 60px;
+}
+
+.media-carousel .carousel-control.right {
+    right: 0px !important;
+    background-image: none;
+    border: 0px solid #FFFFFF;
+    border-radius: 8px;
+    height: 200px;
+    opacity: 100 !important;
+    width: 50px;
+    margin-top: 60px;
+
+}
+
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+    color: #000;
+}
+
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+    color: #000;
+}
+
+.media-carousel img#mobile {
+    height: 200px !important;
+}
+
+.media-carousel img#laptop {
+    height: 150px !important;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.detail h5 {
+    font-family: play;
+    font-size: 15px;
+}
+
+.detail h6 {
+    font-size: 15px;
+    color: green;
+    font-family: roboto;
+}
+
+.thumbnail img:hover {
+    transform: scale(1.1);
+    /* transition: 0.5s ease-in-out;*/
+
+}
+
+.category-name {
+    margin-top: 125px;
+}
+
+.text-muted {
+    font-size: 20px;
+    color: #000;
+}
+
+.list-group-item {
+    margin: 2px;
+}

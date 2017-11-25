@@ -1,0 +1,29 @@
+
+{% extends 'base.html' %}
+
+{% block body %}
+<div class="container">
+  <h2 id="sign-h">Sign up</h2>
+  <form method="post">
+    {% csrf_token %}
+    {% for field in form %}
+      <p id="sign-p">
+        {{ field.label_tag }}{{ field }}
+        {% for error in field.errors %}
+          <p style="color: red">{{ error }}</p>
+        {% endfor %}
+      </p>
+    {% endfor %}
+     <center><button type="submit" class="btn btn-success btn-lg">Sign up</button></center>
+  </form>
+    <a href="{% url 'user:login' %}"><h4 class="text-center">Already Registered? <br>Login here</h4></a>
+</div><br><br><br>
+<div class="sign-login-btn">
+        <div class="w3-container w3-lobster">
+            <p class="w3-xxxlarge" style="color: #fff;"><a href="#">Connect with us!</a></p>
+        </div>
+</div>
+<footer class="text-center" id="kompany-name"><span id="copyright">&copy;</span> Kompany Inc.</footer>
+    
+
+{% endblock %}

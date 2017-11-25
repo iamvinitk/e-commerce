@@ -1,0 +1,46 @@
+{% extends 'base_kompany.html' %}
+    {% block title %}Kompany{% endblock %}
+    {% load static %}
+    {% block css %}
+    <link rel="stylesheet" href="{% static 'kompany/css/category-page-css.css' %}">
+    {% endblock css %}
+{% block body %}
+<div class="container">
+    {% if error_list %}
+        <h1 class="page-nav">No more products found!!</h1>
+    {% endif %}
+    {% if product_list %}
+        <div class="row">
+            {% for product in product_list %}
+                <div class="col-md-3">
+                    <div class="product-item">
+                        <div class="product-thumbnail">
+                            <img src="{{ product.image_src }}" alt=""
+                                 class="pro-image-front {{ product.product_category }}">
+                            <img src="{{ product.image_src }}" alt=""
+                                 class="pro-image-back {{ product.product_category }}">
+                            <div class="product-view">
+                                <div class="inner-product-view">
+                                    <a href="/home/product/{{ product.product_id_id }}" class="link-product-add-cart">Quick
+                                        View</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h4><a href="/home/product/{{ product.product_id_id }}">{{ product.product_name }}</a></h4>
+                            <div class="info-product-price">
+                                <span class="item_price">₹{{ product.discounted_price }}</span>
+                                <del>₹{{ product.price }}</del>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    {% endif %}
+    <div class="row page-nav">
+        <a href="{{ page_list.prev }}"><button class="btn">Prev</button></a>&nbsp;&nbsp;<a href="{{ page_list.next }}"><button class="btn">Next</button></a>
+    </div>
+</div>
+{% endblock body %}
+

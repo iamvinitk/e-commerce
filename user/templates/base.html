@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% block title %}Kompany{% endblock %}</title>
+    {% load staticfiles %}
+    {% block style_base %}
+
+        <link rel="stylesheet" href="{% static 'user/css/style1.css' %}">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+        <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+    {% endblock %}
+
+</head>
+<body>
+<div class="bgimg-1">
+    <br><br><br>
+    <main>
+
+        {% block body %}
+        {% endblock %}
+
+    </main>
+</div>
+</body>
+</html>
