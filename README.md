@@ -32,7 +32,10 @@ DATABASES = {
   - open 127.0.0.1:8000/admin
   - add the desired category as shown below.
     ![Alt text](https://raw.githubusercontent.com/vinit-kanani/Online_Retail/master/screenshots/Screenshot%20(2).png "Optional title")
-  - add the product categories
+  - add the products from the excel sheet.
+    - click the import button on the right top corner.
+    - import the data as shown below.
+    ![Alt text](https://raw.githubusercontent.com/vinit-kanani/Online_Retail/master/screenshots/Screenshot%20(3).png "Optional title")
   - add products from excel sheet using import
   
 
