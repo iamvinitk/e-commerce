@@ -5,7 +5,7 @@
 
 # Commands to setup the project
 1) Set up database configuration in Online_Retail>settings.py
-'''
+```
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
@@ -17,19 +17,23 @@ DATABASES = {
         'USER': 'root',
     }
 }
-'''
+```
 
 2)Commands to set up project and run the development server
-'''
+```
   python manage.py makemigrations
   python manage.py migrate
   //Create superuser
   python manage.py createsuperuser
   //run server
   python manage.py runserver
- ''' 
+ ```
 3)Populate the database using the excel files from db folder
   - open 127.0.0.1:8000/admin
   - add the product categories
   - add products from excel sheet using import
   
+
+# MEMBERS
+- Vinit Kanani [https://github.com/vinit-kanani](https://github.com/vinit-kanani)
+- Vaisakh M
