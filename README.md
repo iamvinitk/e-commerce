@@ -29,7 +29,7 @@ DATABASES = {
   python manage.py runserver
  ```
 3)Populate the database using the excel files from db folder
-  - open  ( [127.0.0.1:8000/admin](127.0.0.1:8000/admin) )
+  - open  https://127.0.0.1:8000/admin
   - add the desired category as shown below.
     ![Alt text](https://raw.githubusercontent.com/vinit-kanani/Online_Retail/master/screenshots/Screenshot%20(2).png "Optional title")
   - add the products from the excel sheet.
