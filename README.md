@@ -4,7 +4,7 @@
 
 
 # Commands to setup the project
-1) Set up database configuration in Online_Retail>settings.py
+1)Set up database configuration in Online_Retail>settings.py
 ```
 DATABASES = {
     'default': {
